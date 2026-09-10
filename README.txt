@@ -1,33 +1,14 @@
-ELEKTROMOBIL KOMPASS – VERSION 4
+ELEKTROMOBIL KOMPASS – LIVE-VERSION
 
-Neu:
-- neutrale Positionierung als Informations- und Vermittlungsservice
-- keine öffentliche Nennung eines konkreten Lead-Empfängers/Arbeitgebers
-- deutlichere Transparenz im Anfrageprozess
-- regionale Landingpages für Münster, Osnabrück und Bielefeld
-- überarbeitete Impressumsstruktur
-- strukturierter Datenschutz-ENTWURF
-- kein zusätzliches Tracking eingebaut
-- Leadformular bleibt im Demo-Modus und überträgt noch keine personenbezogenen Daten
+Diese Version ist nicht als Pilotprojekt bezeichnet.
 
-Dateien:
-index.html
-muenster.html
-osnabrueck.html
-bielefeld.html
-style.css
-script.js
-elektromobil-kompass-hero.png
-impressum.html
-datenschutz.html
+Wesentliche Punkte:
+- keine Nennung von SANIMED oder einem anderen festen Lead-Empfänger
+- Elektromobil Kompass steuert intern, ob und an welchen geeigneten Fachanbieter eine Anfrage weitergegeben wird
+- keine automatische öffentliche Verteilung an Anbieter
+- Formspark bleibt der technische Empfänger des Formulars
+- Benachrichtigungen gehen an das eingerichtete Elektromobil-Kompass-Postfach
+- regionale Seiten für Münster, Osnabrück und Bielefeld bleiben erhalten
 
-VOR LIVE-LEADBETRIEB:
-- Betreiberangaben ergänzen
-- professionelle E-Mail einrichten
-- tatsächliches Hosting/Formularsystem in Datenschutz aufnehmen
-- konkreten Empfänger-/Vermittlungsprozess rechtlich prüfen
-- Einwilligungsnachweis technisch speichern
-- Formularversand aktivieren
-- ggf. gewerbe-/arbeitsrechtliche Fragen final klären
-
-Die Rechtstexte sind Arbeitsentwürfe und keine individuelle Rechtsberatung.
+WICHTIG:
+Die Website ist technisch vorbereitet. Vor dem kommerziellen Start sollten Einwilligung, Datenschutzerklärung, Gewerbe-/Arbeitsrecht und der tatsächliche Prozess der Leadweitergabe fachkundig geprüft werden.
