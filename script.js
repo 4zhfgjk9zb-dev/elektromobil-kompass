@@ -37,15 +37,18 @@ document.querySelectorAll("[data-region]").forEach(a=>a.addEventListener("click"
 form.addEventListener("submit",async e=>{
   e.preventDefault();
   if(!validStep()) return;
+  const consentTimestamp=new Date().toISOString();
   const consentTime=document.getElementById("einwilligung_zeitpunkt");
-  if(consentTime) consentTime.value=new Date().toISOString();
+  if(consentTime) consentTime.value=consentTimestamp;
   submit.disabled=true;
   submit.textContent="Wird gesendet …";
   box.hidden=true;
   try{
+    const formData=new FormData(form);
+    formData.set("einwilligung_zeitpunkt", consentTimestamp);
     const response=await fetch(form.action,{
       method:"POST",
-      body:new FormData(form),
+      body:formData,
       headers:{"Accept":"application/json"}
     });
     if(!response.ok) throw new Error("Formularversand fehlgeschlagen");
