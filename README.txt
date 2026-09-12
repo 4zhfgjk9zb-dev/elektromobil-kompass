@@ -1,14 +1,15 @@
-ELEKTROMOBIL KOMPASS – LIVE-VERSION
+ELEKTROMOBIL KOMPASS – LIVE V4 / SANIMED
 
-Diese Version ist nicht als Pilotprojekt bezeichnet.
+Technischer Leadfluss:
+Website -> Formspark -> Elektromobil Kompass -> SANIMED GmbH (nur bei ausdrücklicher Einwilligung)
 
-Wesentliche Punkte:
-- keine Nennung von SANIMED oder einem anderen festen Lead-Empfänger
-- Elektromobil Kompass steuert intern, ob und an welchen geeigneten Fachanbieter eine Anfrage weitergegeben wird
-- keine automatische öffentliche Verteilung an Anbieter
-- Formspark bleibt der technische Empfänger des Formulars
-- Benachrichtigungen gehen an das eingerichtete Elektromobil-Kompass-Postfach
-- regionale Seiten für Münster, Osnabrück und Bielefeld bleiben erhalten
+Formular:
+- Erreichbarkeit nur Vormittags / Nachmittags
+- konkrete Benennung der SANIMED GmbH als Empfänger
+- ausdrückliche Einwilligung in Datenübermittlung und Kontakt zur konkreten Anfrage
+- Einwilligungsversion und UTC-Zeitpunkt werden mitgesendet
+- keine Einwilligung zur Weitergabe an andere Fachanbieter
 
-WICHTIG:
-Die Website ist technisch vorbereitet. Vor dem kommerziellen Start sollten Einwilligung, Datenschutzerklärung, Gewerbe-/Arbeitsrecht und der tatsächliche Prozess der Leadweitergabe fachkundig geprüft werden.
+WICHTIG VOR VERÖFFENTLICHUNG:
+Die Benennung von SANIMED als Empfänger/Kooperationspartner sollte intern bzw. schriftlich durch SANIMED freigegeben sein.
+Rechtstexte sind sorgfältig vorbereitet, ersetzen aber keine individuelle anwaltliche Prüfung.

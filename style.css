@@ -39,3 +39,33 @@ footer{padding:52px 0;background:#102521;color:#d5e4df}.footer-grid{display:grid
 .legal-warning{padding:16px 18px;background:#fff7e7;border:1px solid #ead7ad;border-radius:12px;margin:24px 0}
 .region-hero{padding-top:70px}
 @media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:12px}}
+
+/* Live-V2: mobile, accessibility and conversion refinements */
+.field-hint{margin:-10px 0 16px;color:var(--muted);font-size:13px}
+.choice input:focus-visible+span,.btn:focus-visible,.text-input:focus-visible,a:focus-visible{outline:3px solid #f2b84b;outline-offset:3px}
+.form-message{font-size:16px;line-height:1.55}
+.form-message a{font-weight:800;color:var(--brand)}
+@media(max-width:620px){
+  .nav{height:68px}
+  .brand{font-size:18px}
+  .brand-mark{width:36px;height:36px}
+  .hero{padding:42px 0 46px}
+  h1{font-size:38px;line-height:1.05}
+  .lead{font-size:18px;line-height:1.55}
+  .trust-row{gap:10px 16px;margin:20px 0}
+  .btn-large{width:100%;padding:15px 18px}
+  .hero-photo{height:235px}
+  .hero-card-content{padding:20px}
+  .hero-card-content strong{font-size:21px}
+  .hero-card-content p{margin-bottom:0}
+  .section{padding:56px 0}
+  .section-head{margin-bottom:28px}
+  .region-card,.card{padding:22px}
+  .service-note{font-size:15px;line-height:1.5;padding:14px;margin-bottom:18px}
+  .funnel{padding:20px 16px}
+  .step legend{font-size:25px}
+  .choice span{padding:16px 14px;font-size:17px}
+  .text-input{padding:15px 14px;font-size:17px}
+  .consent{font-size:14px;line-height:1.5}
+  .legal-note{font-size:12px;line-height:1.45}
+}
