@@ -19,3 +19,12 @@ LIVE V5:
 - Einwilligungszeitpunkt wird robust direkt im FormData gesetzt.
 - Echtes Logo-Markenzeichen in Kopfzeile statt CSS-Textkachel.
 - Favicon als SVG + PNG sowie Apple-Touch-Icon für bessere Browser-/iPhone-Unterstützung.
+
+
+LIVE V6 FINAL:
+- Freigegebenes Elektromobil-Logo in Header und Footer integriert.
+- Dasselbe Zeichen als Browser-Favicon und Apple-Touch-Icon eingebunden.
+- Einwilligungszeitpunkt wird unmittelbar vor Versand in FormData gesetzt.
+- Formularfelder Erreichbarkeit und kontakt_einwilligung bleiben enthalten.
+- SANIMED bleibt konkret benannter Empfänger; keine automatische Weitergabe an andere Fachanbieter.
+- Finale technische Prüfung der lokalen Links/Assets und Formularstruktur durchgeführt.
