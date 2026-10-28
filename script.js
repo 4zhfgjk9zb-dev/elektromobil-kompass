@@ -55,7 +55,7 @@ form.addEventListener("submit",async e=>{
     form.reset();
     document.querySelectorAll(".step,.progress,.step-label,.funnel-actions,.service-note").forEach(el=>el.hidden=true);
     box.hidden=false;
-    box.innerHTML="<strong>Vielen Dank! Ihre Anfrage ist eingegangen.</strong><br>Wenn Sie der Weitergabe zugestimmt haben, kann Ihre Anfrage an die SANIMED GmbH übermittelt werden. SANIMED darf Sie anschließend zu Ihrer konkreten Elektromobil-Anfrage kontaktieren.";
+    box.innerHTML="<strong>Vielen Dank! Ihre Anfrage ist eingegangen.</strong><br>Elektromobil Kompass prüft Ihre Angaben und kontaktiert Sie zu Ihrer Anfrage. Eine Weitergabe an Fachanbieter erfolgt nur nach vorheriger gesonderter Zustimmung.";
   }catch(err){
     box.hidden=false;
     box.innerHTML="<strong>Das hat leider nicht funktioniert.</strong> Bitte versuchen Sie es erneut oder schreiben Sie an <a href='mailto:info@elektromobil-kompass.de'>info@elektromobil-kompass.de</a>.";
